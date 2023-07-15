@@ -14,6 +14,8 @@ Run Infected Rose with the working directory being the `mods/` folder.
 
 On the server, symlink `build/resServer/CDServer.sqlite` to `mods/CDServer.sqlite`.
 
+On the server, symlink all the files within the `mods/grim/server/` directory to the `build/` directory.
+
 To make sure players has the same identifers in the client, share the `mods/lookup.json` with the clients.
 
 Start the server.
