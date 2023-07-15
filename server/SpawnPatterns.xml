@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SpawnPatterns>
+    <SpawnPattern lot="4712">
+        <Spawn rating="20" chance="0.5">
+            <SpawnLot lot="11212"/>
+        </Spawn>
+        <Spawn rating="20" chance="1">
+            <SpawnLot lot="8238"/>
+        </Spawn>
+        <Spawn rating="10" chance="0.5">
+            <SpawnLot lot="8238"/>
+        </Spawn>
+    </SpawnPattern>
+</SpawnPatterns>

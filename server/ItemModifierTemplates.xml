@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Templates>
+    <!--
+            // eStatTypes
+        	// Stats
+            Health = 0,
+            Armor = 1,
+            Imagination = 2,
+
+            // Damage
+            Physical = 3,
+            Electric = 4,
+            Corruption = 5,
+            Heat = 6,
+            Shadow = 7,
+            Pierce = 8,
+            Vitality = 9,
+            Domination = 10,
+
+            // eStatModifier
+            Absolute = 0,
+            Percent = 1,
+            DamageAbsolute = 2,
+            DamagePercent = 3,
+            DamageResistance = 4,
+
+            // ItemTypes
+            UNKNOWN = -1,
+            ALL = 0,
+            BRICK = 1,
+            HAT = 2,
+            HAIR = 3,
+            NECK = 4,
+            LEFT_HAND = 5,
+            RIGHT_HAND = 6,
+            LEGS = 7,
+            LEFT_TRINKET = 8,
+            RIGHT_TRINKET = 9,
+            BEHAVIOR = 10,
+            PROPERTY = 11,
+            MODEL = 12,
+            COLLECTIBLE = 13,
+            CONSUMABLE = 14,
+            CHEST = 15,
+            EGG = 16,
+            PET_FOOD = 17,
+            QUEST_OBJECT = 18,
+            PET_INVENTORY_ITEM = 19,
+            PACKAGE = 20,
+            LOOT_MODEL = 21,
+            VEHICLE = 22,
+            LUP_MODEL = 23,
+            MOUNT = 24,
+    -->
+    <!-- Prefixes -->
+    <Template name="Blunt" rarity="0" isPrefix="true" isSuffix="false" priority="0"
+              chance="1" levelMultiplier="0.1" minRarity="0" standardDeviation="0.3"
+              itemTypes="6">
+        <!-- Physical Damage --> <Stat type="3" modifier="2" value="5" />
+    </Template>
+    <Template name="Fine" rarity="0" isPrefix="true" isSuffix="false" priority="0"
+              chance="1" levelMultiplier="0.05" minRarity="0" standardDeviation="0.3"
+              itemTypes="2,4,5,7,15">
+        <!-- Physical Resistance --> <Stat type="3" modifier="4" value="0.1" />
+        <!-- Pierce Resistance --> <Stat type="8" modifier="4" value="0.05" />
+        <!-- Armor --> <Stat type="1" modifier="0" value="10" />
+    </Template>
+    <Template name="Hardened" rarity="0" isPrefix="true" isSuffix="false" priority="0"
+              chance="0.5" levelMultiplier="0.1" minRarity="0" standardDeviation="0.3"
+              itemTypes="2,4,7,15">
+        <!-- Physical Resistance --> <Stat type="3" modifier="4" value="0.1" />
+        <!-- Pierce Resistance --> <Stat type="8" modifier="4" value="0.05" />
+        <!-- Armor --> <Stat type="1" modifier="0" value="25" />
+    </Template>
+    <Template name="Damaged" rarity="0" isPrefix="true" isSuffix="false" priority="0"
+              chance="1" levelMultiplier="0.075" minRarity="0" standardDeviation="0.2"
+              itemTypes="2,4,7,15">
+        <!-- Physical Resistance --> <Stat type="3" modifier="4" value="0.1" />
+        <!-- Pierce Resistance --> <Stat type="8" modifier="4" value="0.05" />
+        <!-- Armor --> <Stat type="1" modifier="0" value="15" />
+    </Template>
+    <Template name="Scared" rarity="0" isPrefix="true" isSuffix="false" priority="0"
+              chance="0.75" levelMultiplier="0.1" minRarity="0" standardDeviation="0.3"
+              itemTypes="2,4,7,15">
+        <!-- Physical Resistance --> <Stat type="3" modifier="4" value="0.175" />
+        <!-- Pierce Resistance --> <Stat type="8" modifier="4" value="0.025" />
+        <!-- Armor --> <Stat type="1" modifier="0" value="25" />
+    </Template>
+    <Template name="Washed" rarity="0" isPrefix="true" isSuffix="false" priority="0"
+              chance="0.5" levelMultiplier="0.1" minRarity="0" standardDeviation="0.3"
+              itemTypes="2,4,7,15">
+        <!-- Physical Resistance --> <Stat type="3" modifier="4" value="0.1" />
+        <!-- Heat Resistance --> <Stat type="6" modifier="4" value="0.15" />
+    </Template>
+    <Template name="Plated" rarity="0" isPrefix="true" isSuffix="false" priority="0"
+              chance="0.1" levelMultiplier="0.075" minRarity="0" standardDeviation="0.1"
+              itemTypes="2,4,7,15">
+        <!-- Physical Resistance --> <Stat type="3" modifier="4" value="0.25" />
+    </Template>
+    <Template name="Reinforced" rarity="0" isPrefix="true" isSuffix="false" priority="0"
+              chance="0.25" levelMultiplier="0.1" minRarity="0" standardDeviation="0.3"
+              itemTypes="2,4,7,15">
+        <!-- Physical Resistance --> <Stat type="3" modifier="4" value="0.15" />
+        <!-- Pierce Resistance --> <Stat type="8" modifier="4" value="0.075" />
+        <!-- Corruption Resistance --> <Stat type="5" modifier="4" value="0.05" />
+        <!-- Armor --> <Stat type="1" modifier="0" value="40" />
+    </Template>
+    <Template name="Blessed" rarity="0" isPrefix="true" isSuffix="false" priority="0"
+              chance="0.1" levelMultiplier="0.1" minRarity="0" standardDeviation="0.3"
+              itemTypes="2,4,7,15">
+        <!-- Corruption Resistance --> <Stat type="5" modifier="4" value="0.15" />
+        <!-- Shadow Resistance --> <Stat type="7" modifier="4" value="0.075" />
+        <!-- Domination Resistance --> <Stat type="10" modifier="4" value="0.025" />
+        <!-- Armor --> <Stat type="1" modifier="4" value="60" />
+    </Template>
+    <Template name="Worked" rarity="0" isPrefix="true" isSuffix="false" priority="0"
+              chance="0.6" levelMultiplier="0.1" minRarity="0" standardDeviation="0.25"
+              itemTypes="6">
+        <!-- Physical Damage --> <Stat type="3" modifier="2" value="7" />
+    </Template>
+    <Template name="Tipped" rarity="0" isPrefix="true" isSuffix="false" priority="0"
+              chance="0.5" levelMultiplier="0.1" minRarity="0" standardDeviation="0.25"
+              itemTypes="6">
+        <!-- Pierce Damage --> <Stat type="8" modifier="2" value="8" />
+    </Template>
+    <Template name="Flawed" rarity="0" isPrefix="true" isSuffix="false" priority="0"
+              chance="0.05" levelMultiplier="0.05" minRarity="0" standardDeviation="0.25"
+              itemTypes="0">
+        <!-- Pierce Damage --> <Stat type="8" modifier="2" value="2" />
+        <!-- Physical Damage --> <Stat type="3" modifier="2" value="2" />
+        <!-- Physical Resistance --> <Stat type="3" modifier="4" value="0.025" />
+    </Template>
+    <Template name="Greater" rarity="0" isPrefix="true" isSuffix="false" priority="0"
+              chance="0.4" levelMultiplier="0.05" minRarity="0" standardDeviation="0.2"
+              itemTypes="0">
+        <!-- Pierce Damage --> <Stat type="8" modifier="2" value="4" />
+        <!-- Physical Damage --> <Stat type="3" modifier="2" value="4" />
+        <!-- Physical Resistance --> <Stat type="3" modifier="4" value="0.05" />
+    </Template>
+    <Template name="Lesser Forged" rarity="0" isPrefix="true" isSuffix="false" priority="0"
+              chance="0.4" levelMultiplier="0.05" minRarity="0" standardDeviation="0.2"
+              itemTypes="6">
+        <!-- Physical Damage --> <Stat type="3" modifier="2" value="8" />
+    </Template>
+    <Template name="Lesser" rarity="0" isPrefix="true" isSuffix="false" priority="0"
+              chance="0.4" levelMultiplier="0.05" minRarity="0" standardDeviation="0.2"
+              itemTypes="0">
+        <!-- Physical Resistance --> <Stat type="3" modifier="4" value="0.025" />
+        <!-- Pierce Resistance --> <Stat type="8" modifier="4" value="0.02" />
+        <!-- Electric Resistance --> <Stat type="4" modifier="4" value="0.02" />
+        <!-- Corruption Resistance --> <Stat type="5" modifier="4" value="0.01" />
+    </Template>
+    <Template name="Hopeful" rarity="0" isPrefix="true" isSuffix="false" priority="0"
+              chance="0.3" levelMultiplier="0.05" minRarity="0" standardDeviation="0.2"
+              itemTypes="2,4,7,15">
+        <!-- Physical Resistance --> <Stat type="3" modifier="4" value="0.05" />
+        <!-- Pierce Resistance --> <Stat type="8" modifier="4" value="0.025" />
+        <!-- Electric Resistance --> <Stat type="4" modifier="4" value="0.025" />
+        <!-- Corruption Resistance --> <Stat type="5" modifier="4" value="0.015" />
+    </Template>
+    <Template name="Insulated" rarity="0" isPrefix="true" isSuffix="false" priority="0"
+              chance="0.2" levelMultiplier="0.05" minRarity="0" standardDeviation="0.1"
+              itemTypes="2,4,7,15">
+        <!-- Electric Resistance --> <Stat type="4" modifier="4" value="0.05" />
+        <!-- Corruption Resistance --> <Stat type="5" modifier="4" value="0.025" />
+    </Template>
+    <Template name="Sharpened" rarity="0" isPrefix="true" isSuffix="false" priority="0"
+              chance="0.2" levelMultiplier="0.05" minRarity="0" standardDeviation="0.1"
+              itemTypes="6">
+        <!-- Physical Damage --> <Stat type="3" modifier="2" value="10" />
+        <!-- Pierce Damage --> <Stat type="8" modifier="2" value="3" />
+    </Template>
+    <Template name="Masterful" rarity="0" isPrefix="true" isSuffix="false" priority="0"
+              chance="0.15" levelMultiplier="0.075" minRarity="0" standardDeviation="0.1"
+              itemTypes="6">
+        <!-- Physical Damage --> <Stat type="3" modifier="2" value="15" />
+        <!-- Pierce Damage --> <Stat type="8" modifier="2" value="5" />
+        <!-- Physical Resistance --> <Stat type="3" modifier="4" value="0.075" />
+    </Template>
+    <Template name="Faithful" rarity="0" isPrefix="true" isSuffix="false" priority="0"
+              chance="0.1" levelMultiplier="0.1" minRarity="0" standardDeviation="0.1"
+              itemTypes="2,4,7,15">
+        <!-- Physical Resistance --> <Stat type="3" modifier="4" value="0.1" />
+        <!-- Pierce Resistance --> <Stat type="8" modifier="4" value="0.05" />
+        <!-- Electric Resistance --> <Stat type="4" modifier="4" value="0.05" />
+        <!-- Corruption Resistance --> <Stat type="5" modifier="4" value="0.025" />
+    </Template>
+    <Template name="Sentinel Forged" rarity="0" isPrefix="true" isSuffix="false" priority="0"
+              chance="0.1" levelMultiplier="0.1" minRarity="0" standardDeviation="0.1"
+              itemTypes="2,4,7,15">
+        <!-- Armor --> <Stat type="1" modifier="0" value="50" />
+        <!-- Physical Resistance --> <Stat type="3" modifier="4" value="0.1" />
+        <!-- Pierce Resistance --> <Stat type="8" modifier="4" value="0.05" />
+    </Template>
+    <Template name="Rough" rarity="0" isPrefix="true" isSuffix="false" priority="0"
+              chance="0.1" levelMultiplier="0.1" minRarity="0" standardDeviation="0.1"
+              itemTypes="5,6">
+        <!-- Vitality Damage --> <Stat type="9" modifier="2" value="9" />
+        <!-- Physical Damage --> <Stat type="3" modifier="2" value="3" />
+        <!-- Pierce Damage --> <Stat type="8" modifier="2" value="3" />
+    </Template>
+    <Template name="Corrupted" rarity="0" isPrefix="true" isSuffix="false" priority="0"
+              chance="0.05" levelMultiplier="0.05" minRarity="0" standardDeviation="0.2"
+              itemTypes="0">
+        <!-- Corruption Damage --> <Stat type="5" modifier="2" value="3" />
+        <!-- Corruption Damage --> <Stat type="5" modifier="3" value="0.1" />
+        <!-- Corruption Resistance --> <Stat type="5" modifier="4" value="0.05" />
+    </Template>
+    <Template name="Charged" rarity="0" isPrefix="true" isSuffix="false" priority="0"
+              chance="0.075" levelMultiplier="0.05" minRarity="0" standardDeviation="0.2"
+              itemTypes="0">
+        <!-- Electric Damage --> <Stat type="4" modifier="2" value="3" />
+        <!-- Electric Damage --> <Stat type="4" modifier="3" value="0.1" />
+        <!-- Electric Resistance --> <Stat type="4" modifier="4" value="0.05" />
+    </Template>
+    <Template name="Heated" rarity="0" isPrefix="true" isSuffix="false" priority="0"
+              chance="0.025" levelMultiplier="0.05" minRarity="0" standardDeviation="0.2"
+              itemTypes="0">
+        <!-- Heat Damage --> <Stat type="6" modifier="2" value="5" />
+        <!-- Heat Damage --> <Stat type="6" modifier="3" value="0.1" />
+        <!-- Heat Resistance --> <Stat type="6" modifier="4" value="0.07" />
+    </Template>
+
+    <!-- Suffixes -->
+    <Template name=" of the Sentinels" rarity="0" isPrefix="false" isSuffix="true" priority="0"
+              chance="0.05" levelMultiplier="0.1" minRarity="0" standardDeviation="0.1"
+              itemTypes="2,4,7,15">
+        <!-- Armor --> <Stat type="1" modifier="0" value="100" />
+        <!-- Physical Resistance --> <Stat type="3" modifier="4" value="0.1" />
+        <!-- Pierce Resistance --> <Stat type="8" modifier="4" value="0.05" />
+    </Template>
+    <Template name=", Corrupted Blade" rarity="1" isPrefix="false" isSuffix="true" priority="0"
+              chance="0.025" levelMultiplier="0.05" minRarity="0" standardDeviation="0.4"
+              itemTypes="6">
+        <!-- Corruption Damage --> <Stat type="5" modifier="2" value="15" />
+        <!-- Corruption Damage --> <Stat type="5" modifier="3" value="0.1" />
+        <!-- Corruption Resistance --> <Stat type="5" modifier="4" value="0.05" />
+    </Template>
+    <Template name=" of Avant" rarity="1" isPrefix="false" isSuffix="true" priority="0"
+              chance="0.2" levelMultiplier="0.05" minRarity="0" standardDeviation="0.2"
+              itemTypes="0">
+        <!-- Physical Damage --> <Stat type="3" modifier="2" value="10" />
+        <!-- Pierce Damage --> <Stat type="8" modifier="2" value="5" />
+        <!-- Physical Resistance --> <Stat type="3" modifier="4" value="0.05" />
+        <!-- Pierce Resistance --> <Stat type="8" modifier="4" value="0.05" />
+        <!-- Electric Resistance --> <Stat type="4" modifier="4" value="0.025" />
+    </Template>
+    <Template name=" of Parry" rarity="0" isPrefix="false" isSuffix="true" priority="0"
+              chance="0.2" levelMultiplier="0.05" minRarity="0" standardDeviation="0.2"
+              itemTypes="6">
+        <!-- Physical Resistance --> <Stat type="3" modifier="4" value="0.1" />
+        <!-- Pierce Resistance --> <Stat type="8" modifier="4" value="0.05" />
+        <!-- Heat Resistance --> <Stat type="6" modifier="4" value="0.025" />
+    </Template>
+    <Template name=" of Rejuvenation" rarity="0" isPrefix="false" isSuffix="true" priority="0"
+              chance="0.1" levelMultiplier="0.05" minRarity="0" standardDeviation="0.2"
+              itemTypes="2,4,7,15">
+        <!-- Health --> <Stat type="0" modifier="0" value="10" />
+        <!-- Corruption Resistance --> <Stat type="5" modifier="4" value="0.1" />
+        <!-- Physical Resistance --> <Stat type="3" modifier="4" value="0.05" />
+        <!-- Pierce Resistance --> <Stat type="8" modifier="4" value="0.025" />
+    </Template>
+    <Template name=", Mechanical" rarity="0" isPrefix="false" isSuffix="true" priority="0"
+              chance="0.1" levelMultiplier="0.05" minRarity="0" standardDeviation="0.2"
+              itemTypes="0">
+        <!-- Electric Damage --> <Stat type="4" modifier="2" value="15" />
+        <!-- Electric Damage --> <Stat type="4" modifier="3" value="0.075" />
+        <!-- Electric Resistance --> <Stat type="4" modifier="4" value="0.1" />
+    </Template>
+    <Template name=", Inscribed" rarity="0" isPrefix="false" isSuffix="true" priority="0"
+              chance="0.1" levelMultiplier="0.1" minRarity="0" standardDeviation="0.2"
+              itemTypes="0">
+        <!-- Corruption Resistance --> <Stat type="5" modifier="4" value="0.1" />
+        <!-- Shadow Resistance --> <Stat type="7" modifier="4" value="0.05" />
+        <!-- Domination Resistance --> <Stat type="15" modifier="4" value="0.025" />
+    </Template>
+    <Template name=" of Imagination" rarity="0" isPrefix="false" isSuffix="true" priority="0"
+              chance="0.2" levelMultiplier="0.075" minRarity="0" standardDeviation="0.2"
+              itemTypes="2,4,7,15">
+        <!-- Corruption Resistance --> <Stat type="5" modifier="4" value="0.075" />
+        <!-- Shadow Resistance --> <Stat type="7" modifier="4" value="0.05" />
+        <!-- Domination Resistance --> <Stat type="10" modifier="4" value="0.025" />
+    </Template>
+    <Template name=", Stromling Blade" rarity="1" isPrefix="false" isSuffix="true" priority="0"
+              chance="0.05" levelMultiplier="0.05" minRarity="0" standardDeviation="0.4"
+              itemTypes="6">
+        <!-- Corruption Damage --> <Stat type="5" modifier="2" value="10" />
+        <!-- Corruption Damage --> <Stat type="5" modifier="3" value="0.05" />
+        <!-- Corruption Resistance --> <Stat type="5" modifier="4" value="0.1" />
+    </Template>
+</Templates>

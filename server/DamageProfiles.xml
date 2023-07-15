@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DamageProfiles>
+    <!--
+            // eStatTypes
+        	// Stats
+            Health = 0,
+            Armor = 1,
+            Imagination = 2,
+
+            // Damage
+            Physical = 3,
+            Electric = 4,
+            Corruption = 5,
+            Heat = 6,
+            Shadow = 7,
+            Pierce = 8,
+            Vitality = 9,
+            Domination = 10,
+
+            // eStatModifier
+            Absolute = 0,
+            Percent = 1,
+            DamageAbsolute = 2,
+            DamagePercent = 3,
+            DamageResistance = 4,
+    -->
+    <!-- AG Stromling -->
+    <DamageProfile skillID="239">
+        <!-- Physical Damage --> <Damage type="3" value="10" />
+        <!-- Pierce Damage --> <Damage type="8" value="5" />
+        <!-- Corruption Damage --> <Damage type="5" value="10" />
+    </DamageProfile>
+    <!-- AG Mech -->
+    <DamageProfile skillID="215">
+        <!-- Electric Damage --> <Damage type="4" value="40" />
+        <!-- Heat Damage --> <Damage type="6" value="10" />
+    </DamageProfile>
+    <!-- AG Mech Turret -->
+    <DamageProfile skillID="216">
+        <!-- Electric Damage --> <Damage type="4" value="40" />
+        <!-- Heat Damage --> <Damage type="6" value="10" />
+    </DamageProfile>
+    <!-- AG Spiderling -->
+    <DamageProfile skillID="229">
+        <!-- Vitality Damage --> <Damage type="9" value="20" />
+        <!-- Corruption Damage --> <Damage type="5" value="10" />
+    </DamageProfile>
+    <DamageProfile skillID="230">
+        <!-- Corruption Damage --> <Damage type="5" value="50" />
+    </DamageProfile>
+    <DamageProfile skillID="833">
+        <!-- Electric Damage --> <Damage type="4" value="25" />
+        <!-- Corruption Damage --> <Damage type="5" value="25" />
+    </DamageProfile>
+    <!-- AG Laser -->
+    <DamageProfile skillID="163">
+        <!-- Heat Damage --> <Damage type="6" value="100" />
+    </DamageProfile>
+    <!-- AG Spider Queen -->
+    <DamageProfile skillID="303">
+        <!-- Corruption Damage --> <Damage type="5" value="50" />
+        <!-- Vitality Damage --> <Damage type="9" value="100" />
+    </DamageProfile>
+    <DamageProfile skillID="322">
+        <!-- Electric Damage --> <Damage type="4" value="250" />
+    </DamageProfile>
+    <DamageProfile skillID="1573">
+        <!-- Corruption Damage --> <Damage type="5" value="50" />
+        <!-- Physical Damage --> <Damage type="3" value="150" />
+    </DamageProfile>
+    <DamageProfile skillID="1376"> <!-- Rain of Fire -->
+        <!-- Heat Damage --> <Damage type="6" value="500" />
+        <!-- Physical Damage --> <Damage type="4" value="100" />
+    </DamageProfile>
+    <DamageProfile skillID="1394"> <!-- Rapid Fire -->
+        <!-- Heat Damage --> <Damage type="6" value="50" />
+    </DamageProfile>
+    <DamageProfile skillID="1539"> <!-- Landing -->
+        <!-- Physical Damage --> <Damage type="3" value="200" />
+        <!-- Electric Damage --> <Damage type="4" value="300" />
+    </DamageProfile>
+    <!-- Fire Cracker -->
+    <DamageProfile skillID="471">
+        <!-- Heat Damage --> <Damage type="6" value="100" />
+    </DamageProfile>
+    <!-- Maelstrom Geyser -->
+    <DamageProfile skillID="607">
+        <!-- Heat Damage --> <Damage type="6" value="100" />
+        <!-- Corruption Damage --> <Damage type="5" value="50" />
+    </DamageProfile>
+    <!-- Main hand -->
+    <DamageProfile skillID="1">
+        <!-- Physical Damage --> <Damage type="3" value="3" />
+    </DamageProfile>
+    <!-- Hammerhurl Stromling -->
+    <DamageProfile skillID="1013">
+        <!-- Physical Damage --> <Damage type="3" value="30" />
+        <!-- Domination Damage --> <Damage type="10" value="5" />
+    </DamageProfile>
+    <DamageProfile skillID="580">
+        <!-- Physical Damage --> <Damage type="3" value="15" />
+        <!-- Pierce Damage --> <Damage type="8" value="20" />
+        <!-- Domination Damage --> <Damage type="10" value="5" />
+    </DamageProfile>
+    <!-- Stromling Invador -->
+    <DamageProfile skillID="928">
+        <!-- Physical Damage --> <Damage type="3" value="40" />
+        <!-- Pierce Damage --> <Damage type="8" value="30" />
+        <!-- Domination Damage --> <Damage type="10" value="15" />
+    </DamageProfile>
+
+
+</DamageProfiles>

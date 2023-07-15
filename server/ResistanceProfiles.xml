@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ResistanceProfiles>
+    <!--
+            // eStatTypes
+        	// Stats
+            Health = 0,
+            Armor = 1,
+            Imagination = 2,
+
+            // Damage
+            Physical = 3,
+            Electric = 4,
+            Corruption = 5,
+            Heat = 6,
+            Shadow = 7,
+            Pierce = 8,
+            Vitality = 9,
+            Domination = 10,
+
+            // eStatModifier
+            Absolute = 0,
+            Percent = 1,
+            DamageAbsolute = 2,
+            DamagePercent = 3,
+            DamageResistance = 4,
+    -->
+    <ResistanceProfile lot="4712">
+        <!-- Corruption --> <Resistance type="5" value="0.5" />
+        <!-- Physical --> <Resistance type="3" value="0.05" />
+    </ResistanceProfile>
+    <ResistanceProfile lot="6253">
+        <!-- Corruption --> <Resistance type="5" value="0.2" />
+        <!-- Vitality --> <Resistance type="9" value="0.8" />
+        <!-- Physical --> <Resistance type="3" value="0.25" />
+    </ResistanceProfile>
+    <ResistanceProfile lot="14572,6359,14381,16197">
+        <!-- Corruption --> <Resistance type="5" value="0.8" />
+        <!-- Vitality --> <Resistance type="9" value="0.1" />
+        <!-- Physical --> <Resistance type="3" value="0.25" />
+    </ResistanceProfile>
+    <ResistanceProfile lot="8238">
+        <!-- Physical --> <Resistance type="3" value="0.35" />
+        <!-- Corruption --> <Resistance type="5" value="0.5" />
+        <!-- Pierce --> <Resistance type="8" value="0.2" />
+    </ResistanceProfile>
+    <ResistanceProfile lot="11212">
+        <!-- Physical --> <Resistance type="3" value="0.45" />
+        <!-- Corruption --> <Resistance type="5" value="0.7" />
+        <!-- Pierce --> <Resistance type="8" value="0.3" />
+        <!-- Vitality --> <Resistance type="9" value="0.2" />
+        <!-- Domination --> <Resistance type="10" value="0.2" />
+        <!-- Electric --> <Resistance type="4" value="0.1" />
+    </ResistanceProfile>
+</ResistanceProfiles>

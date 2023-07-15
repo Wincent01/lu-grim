@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EntityProfiles>
+    <EntityProfile lot="8238" level="2" armor="2" />
+    <EntityProfile lot="11212" level="3" health="6" armor="3" />
+</EntityProfiles>
