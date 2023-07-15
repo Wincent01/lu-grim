@@ -1,0 +1,25 @@
+[
+  {
+    "id": "grim:metal",
+    "type": "item",
+    "action": "add",
+    "locale": {
+      "en_US": "Metal",
+      "en_GB": "Metal",
+      "de_DE": "Metall"
+    },
+    "values": {
+      "description-locale": {
+        "en_US": "Useful for many purposes.",
+        "en_GB": "Useful for many purposes.",
+        "de_DE": "N\u00FCtzlich f\u00FCr viele Zwecke."
+      },
+      "icon": "ICON:grim:metal.dds",
+      "itemType": 20,
+      "baseValue": 25,
+      "stackSize": 100,
+      "isBOP": true,
+      "currencyCosts": "lego-universe:2198:1,lego-universe:6194:1"
+    }
+  }
+]

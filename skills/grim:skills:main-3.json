@@ -1,0 +1,21 @@
+[
+  {
+    "id": "grim:skills:main-3",
+    "type": "skill",
+    "action": "add",
+    "behaviors": {
+      "grim:skills:main-3:first": {
+        "template": "SkillCastFailed"
+      }
+    },
+    "locale": {
+      "en_US": "Buffs",
+      "en_GB": "Buffs",
+      "de_DE": "Buffs"
+    },
+    "values": {
+      "root-behavior": "grim:skills:main-3:first",
+      "icon": "ICON:grim:skill-3.dds"
+    }
+  }
+]

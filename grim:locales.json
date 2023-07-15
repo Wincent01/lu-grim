@@ -1,0 +1,48 @@
+[
+  {
+    "id": "grim:locales",
+    "type": "locale",
+    "values": {
+      "UI_COOK": {
+        "en_US": "Craft",
+        "en_GB": "Craft",
+        "de_DE": "Handwerk"
+      },
+      "Objects_6194_description": {
+        "en_US": "Metal, taken by the Maelstrom. Useful for many purposes.",
+        "en_GB": "Metal, taken by the Maelstrom. Useful for many purposes.",
+        "de_DE": "Metall, vom Mahlstrom erobert. N\u00FCtzlich f\u00FCr viele Zwecke."
+      },
+      "Objects_3100_description": {
+        "en_US": "A gem for lesser crafts. Useful for many purposes.",
+        "en_GB": "A gem for lesser crafts. Useful for many purposes.",
+        "de_DE": "Ein Juwel f\u00FCr kleinere Handwerke. N\u00FCtzlich f\u00FCr viele Zwecke."
+      },
+      "Objects_6866_description": {
+        "en_US": "A gem with sparks of fire. Useful for many purposes.",
+        "en_GB": "A gem with sparks of fire. Useful for many purposes.",
+        "de_DE": "Ein Juwel mit Feuerfunken. N\u00FCtzlich f\u00FCr viele Zwecke."
+      },
+      "Objects_6865_description": {
+        "en_US": "A gem imbued with the power of imagination. Useful for many purposes.",
+        "en_GB": "A gem imbued with the power of imagination. Useful for many purposes.",
+        "de_DE": "Ein Juwel voller Fantasie. N\u00FCtzlich f\u00FCr viele Zwecke."
+      },
+      "Objects_6864_description": {
+        "en_US": "A gem that tells a story of great adventure. Useful for many purposes.",
+        "en_GB": "A gem that tells a story of great adventure. Useful for many purposes.",
+        "de_DE": "Ein Juwel, das eine Geschichte gro\u00DFer Abenteuer erz\u00E4hlt. N\u00FCtzlich f\u00FCr viele Zwecke."
+      },
+      "Objects_6863_description": {
+        "en_US": "A gem for great crafts. Useful for many purposes.",
+        "en_GB": "A gem for great crafts. Useful for many purposes.",
+        "de_DE": "Ein Juwel f\u00FCr gro\u00DFartiges Kunsthandwerk. N\u00FCtzlich f\u00FCr viele Zwecke."
+      },
+      "Objects_6862_description": {
+        "en_US": "Thought lost to history, this gem is a relic of the past and holds untold power. Useful for many purposes.",
+        "en_GB": "Thought lost to history, this gem is a relic of the past and holds untold power. Useful for many purposes.",
+        "de_DE": "Dieses f\u00FCr die Geschichte verloren geglaubte Juwel ist ein Relikt der Vergangenheit und birgt unermessliche Macht. N\u00FCtzlich f\u00FCr viele Zwecke."
+      }
+    }
+  }
+]

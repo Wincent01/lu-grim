@@ -1,0 +1,51 @@
+[
+  {
+    "id": "grim:ag-anvil",
+    "type": "world-object",
+    "action": "add",
+    "values": {
+      "zone": "lego-universe:1100",
+      "scene": "Global Scene",
+      "template": {
+        "id": "lego-universe:176",
+        "position": {
+          "x": 239.642,
+          "y": 381.869,
+          "z": -178.98
+        },
+        "rotation": {
+          "w": 0.837384,
+          "x": 0,
+          "y": -0.546615,
+          "z": 0
+        },
+        "data": {
+          "spawntemplate": {
+            "type": "Object",
+            "value": "grim:froge-anvil"
+          },
+          "respawn": {
+            "type": "Float",
+            "value": 10.0
+          },
+          "spawner_active_on_load": {
+            "value": true,
+            "type": "Boolean"
+          },
+          "template": {
+            "value": -1,
+            "type": "Integer"
+          },
+          "no_timed_spawn": {
+            "value": true,
+            "type": "Boolean"
+          },
+          "no_auto_spawn": {
+            "value": true,
+            "type": "Boolean"
+          }
+        }
+      }
+    }
+  }
+]

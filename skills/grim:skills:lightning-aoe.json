@@ -1,0 +1,58 @@
+[
+  {
+    "id": "grim:skills:lightning-aoe",
+    "type": "skill",
+    "action": "add",
+    "behaviors": {
+      "grim:skills:lightning-aoe:and": {
+        "template": "And",
+        "parameters": {
+          "behavior 1": "grim:skills:lightning-aoe:effect",
+          "behavior 2": "grim:skills:lightning-aoe:timer"
+        }
+      },
+      "grim:skills:lightning-aoe:effect": {
+        "template": "PlayEffect",
+        "effect": {
+          "id": "lego-universe:3323"
+        }
+      },
+      "grim:skills:lightning-aoe:timer": {
+        "template": "AttackDelay",
+        "parameters": {
+          "delay": 0.5,
+          "num_intervals": 20,
+          "ignore_interrupts": false,
+          "action": "grim:skills:lightning-aoe:aoe"
+        }
+      },
+      "grim:skills:lightning-aoe:aoe": {
+        "template": "AoE",
+        "parameters": {
+          "radius": 15,
+          "max targets": 20,
+          "target_enemy": true,
+          "target_friend": false,
+          "target_self": false,
+          "target_team": false,
+          "use_target_as_caster": false,
+          "use_target_position": false,
+          "action": "grim:skills:lightning-aoe:attack"
+        }
+      },
+      "grim:skills:lightning-aoe:attack": {
+        "template": "BasicAttack",
+        "effect": {
+          "id": "lego-universe:4796"
+        },
+        "parameters": {
+          "min damage": 1,
+          "max damage": 1
+        }
+      }
+    },
+    "values": {
+      "root-behavior": "grim:skills:lightning-aoe:and"
+    }
+  }
+]

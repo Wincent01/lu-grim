@@ -1,0 +1,10 @@
+[
+  {
+    "id": "grim:spider-queen-script",
+    "type": "file",
+    "values": {
+      "source": "resources/l_boss_spider_queen_enemy_client.lua",
+      "destination": "res/scripts/02_client/enemy/ag/l_boss_spider_queen_enemy_client.lua"
+    }
+  }
+]

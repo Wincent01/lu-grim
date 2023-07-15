@@ -1,0 +1,44 @@
+[
+  {
+    "id": "grim:froge-anvil",
+    "type": "object",
+    "action": "add",
+    "components": [
+      "grim:froge-anvil:RenderComponent",
+      "grim:froge-anvil:SimplePhysicsComponent",
+      "grim:froge-anvil:VendorComponent"
+    ],
+    "locale": {
+      "en_US": "Froge",
+      "en_GB": "Froge",
+      "de_DE": "Froge"
+    },
+    "values": {}
+  },
+  {
+    "id": "grim:froge-anvil:RenderComponent",
+    "type": "RenderComponent",
+    "action": "add",
+    "values": {
+      "shader_id": 1,
+      "render_asset": "mesh/smash/smash_won_fv_hammeranvil.nif"
+    }
+  },
+  {
+    "id": "grim:froge-anvil:SimplePhysicsComponent",
+    "type": "SimplePhysicsComponent",
+    "action": "add",
+    "values": {
+      "physics_asset": "env/smash_won_fv_hammeranvil.hkx"
+    }
+  },
+  {
+    "id": "grim:froge-anvil:VendorComponent",
+    "type": "VendorComponent",
+    "action": "add",
+    "values": {
+      "buyScaler": 1.0,
+      "sellScaler": 0.0
+    }
+  }
+]

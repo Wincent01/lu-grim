@@ -1,0 +1,10 @@
+[
+  {
+    "id": "grim:ui:itemrollover",
+    "type": "file",
+    "values": {
+      "source": "resources/itemrollover.gfx",
+      "destination": "res/ui/ingame/itemrollover.gfx"
+    }
+  }
+]

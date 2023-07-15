@@ -1,0 +1,81 @@
+[
+  {
+    "id": "grim:recipes",
+    "type": "recipe",
+    "values": {
+      "lego-universe:11272": {
+        "lego-universe:6865": 1,
+        "grim:metal": 10,
+        "lego-universe:2993": 3
+      },
+      "lego-universe:10431": {
+        "grim:metal": 5,
+        "lego-universe:2993": 1
+      },
+      "lego-universe:10432": {
+        "grim:metal": 5,
+        "lego-universe:2993": 1
+      },
+      "lego-universe:10754": {
+        "grim:metal": 5,
+        "lego-universe:2993": 1
+      },
+      "lego-universe:10433": {
+        "grim:metal": 5,
+        "lego-universe:2993": 1
+      },
+      "lego-universe:8217": {
+        "grim:metal": 5,
+        "lego-universe:2993": 1
+      },
+      "lego-universe:8219": {
+        "grim:metal": 5,
+        "lego-universe:2993": 1
+      },
+      "lego-universe:8218": {
+        "grim:metal": 5,
+        "lego-universe:2993": 1
+      },
+      "lego-universe:5948": {
+        "lego-universe:6865": 1,
+        "lego-universe:10431": 1
+      },
+      "lego-universe:8504": {
+        "lego-universe:6865": 1,
+        "lego-universe:10431": 1,
+        "lego-universe:2993": 3,
+        "lego-universe:6866": 1
+      },
+      "lego-universe:8509": {
+        "grim:metal": 10,
+        "lego-universe:6865": 1,
+        "lego-universe:2993": 3,
+        "lego-universe:6866": 2
+      },
+      "lego-universe:6742": {
+        "grim:metal": 10,
+        "lego-universe:6865": 1,
+        "lego-universe:2993": 3,
+        "lego-universe:6866": 2
+      },
+      "lego-universe:10436": {
+        "grim:metal": 15,
+        "lego-universe:6865": 2,
+        "lego-universe:2993": 5,
+        "lego-universe:6866": 3
+      },
+      "lego-universe:8503": {
+        "grim:metal": 20,
+        "lego-universe:6865": 1,
+        "lego-universe:2993": 3,
+        "lego-universe:6866": 3
+      },
+      "lego-universe:16251": {
+        "grim:metal": 20,
+        "lego-universe:6865": 1,
+        "lego-universe:2993": 3,
+        "lego-universe:6866": 3
+      }
+    }
+  }
+]

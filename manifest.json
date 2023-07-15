@@ -1,0 +1,18 @@
+{
+  "name": "grim",
+  "files": [
+    "grim:locales.json",
+    "grim:ui:itemrollover.json",
+    "grim:spider-queen-script.json",
+    "grim:recipes.json",
+    "grim:metal.json",
+    "grim:klaus-zett-loot.json",
+    "skills/grim:skills:lightning-aoe.json",
+    "skills/grim:skills:main-1.json",
+    "skills/grim:skills:main-2.json",
+    "skills/grim:skills:main-3.json",
+    "world/grim:ag-anvil.json",
+    "objects/grim:forge-anvil.json"
+  ],
+  "resources": "resources"
+}

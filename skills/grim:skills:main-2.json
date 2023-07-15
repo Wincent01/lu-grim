@@ -1,0 +1,21 @@
+[
+  {
+    "id": "grim:skills:main-2",
+    "type": "skill",
+    "action": "add",
+    "behaviors": {
+      "grim:skills:main-2:first": {
+        "template": "SkillCastFailed"
+      }
+    },
+    "locale": {
+      "en_US": "Class",
+      "en_GB": "Class",
+      "de_DE": "Klasse"
+    },
+    "values": {
+      "root-behavior": "grim:skills:main-2:first",
+      "icon": "ICON:grim:skill-2.dds"
+    }
+  }
+]
